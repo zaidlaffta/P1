@@ -10,7 +10,7 @@ module FloodC {
     message_t packet;  
   
     event void Boot.booted() {  
-        call FloodTimer.startPeriodic(1000); // Start a periodic timer  
+        call FloodTimer.startPeriodic(500); // Start a periodic timer for 500 as Jothi want
     }  
   
     event void FloodTimer.fired() {  
